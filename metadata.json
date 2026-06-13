@@ -1,0 +1,6 @@
+{
+  "name": "Glam Esthetix",
+  "description": "Affordable, professional, and bespoke lash extensions, brow shaping, and facial waxing services in Pacifica, CA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

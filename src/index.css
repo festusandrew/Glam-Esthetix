@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Cormorant Garamond', serif;
+  --font-sans: 'DM Sans', sans-serif;
+  
+  --color-brand-espresso: #1A1008;
+  --color-brand-gold: #C9995A;
+  --color-brand-rose: #E8A9A9;
+  --color-brand-cream: #F0DEB4;
+  --color-brand-text: #FAF6F0;
+  
+  --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base style resets and customizations */
+body {
+  background-color: #FAF9F5;
+  color: #1A1008;
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar matching espresso/gold luxury identity */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9995A;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1A1008;
+}
+
+/* Luxury border utilities */
+.border-subtle {
+  border: 0.5px solid rgba(240, 222, 180, 0.15);
+}
+
+.border-subtle-t {
+  border-top: 0.5px solid rgba(240, 222, 180, 0.15);
+}
+
+.border-subtle-b {
+  border-bottom: 0.5px solid rgba(240, 222, 180, 0.15);
+}
+
+.border-subtle-l {
+  border-left: 0.5px solid rgba(240, 222, 180, 0.15);
+}
+
+.border-subtle-r {
+  border-right: 0.5px solid rgba(240, 222, 180, 0.15);
+}
+
+/* Font styles overrides */
+.display-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+}
+
+.eyebrow {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
