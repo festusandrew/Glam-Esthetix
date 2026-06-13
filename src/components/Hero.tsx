@@ -119,32 +119,7 @@ export default function Hero({ onBookClick, onViewServicesClick }: HeroProps) {
             {/* Subtle elegant gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-[#1A1008]/60 via-[#1A1008]/5 to-transparent opacity-40"></div>
 
-            {/* floating luxury label - directly inspired by "sincere" picture-bound tag overlay */}
-            <div 
-              onClick={() => onBookClick('lash-classic')}
-              className="absolute bottom-6 left-6 right-6 bg-[#FAF9F5]/98 border border-[#C9995A]/30 p-4 backdrop-blur-md flex justify-between items-center cursor-pointer hover:border-[#1A1008] transition-all duration-300 group/tag"
-              style={{ borderRadius: '0px' }}
-            >
-              <div className="space-y-1 text-left">
-                <div className="flex items-center space-x-2">
-                  <span className="w-1.5 h-1.5 bg-[#C9995A] animate-pulse"></span>
-                  <span className="text-[9px] uppercase tracking-widest text-[#C9995A] font-semibold font-mono">Spotlight Service</span>
-                </div>
-                <h3 className="font-display text-base text-[#1A1008] font-light">
-                  Classic Lash Set
-                </h3>
-                <p className="text-[10px] text-[#C9995A] font-mono">From $85 · 90 min duration</p>
-              </div>
 
-              {/* Inverted luxury booking button inside the tag */}
-              <button 
-                type="button"
-                className="bg-[#1A1008] group-hover/tag:bg-[#C9995A] text-[#FAF9F5] p-2.5 px-3.5 text-[9px] uppercase tracking-widest font-semibold font-sans transition-colors duration-300 shrink-0"
-                style={{ borderRadius: '0px' }}
-              >
-                Book
-              </button>
-            </div>
 
             {/* Micro badge top right */}
             <span className="absolute top-6 right-6 font-mono text-[9px] text-[#FAF9F5] uppercase tracking-widest bg-[#1A1008]/90 backdrop-blur-sm border border-white/10 px-3 py-1.5">

@@ -48,7 +48,7 @@ export default function Services({ onBookService }: ServicesProps) {
             {/* Deluxe Lash Image Frame */}
             <div className="relative w-full aspect-[16/10] overflow-hidden border border-[#1A1008]/10 group-hover:border-[#C9995A]/30 transition-all duration-700 bg-[#FAF9F5] shadow-inner">
               <img 
-                src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=600&h=400"
+                src={IMAGES.galleryClassicSet}
                 alt="Elite lash extensions mapping"
                 className="w-full h-full object-cover object-center scale-100 group-hover:scale-105 transition-transform duration-[1200ms] opacity-90 group-hover:opacity-100"
                 referrerPolicy="no-referrer"
@@ -108,7 +108,7 @@ export default function Services({ onBookService }: ServicesProps) {
             {/* Deluxe Brow Image Frame */}
             <div className="relative w-full aspect-[16/10] overflow-hidden border border-[#1A1008]/10 group-hover:border-[#C9995A]/30 transition-all duration-700 bg-[#FAF9F5] shadow-inner">
               <img 
-                src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&q=80&w=600&h=400"
+                src={IMAGES.galleryBrowShape}
                 alt="Elite custom brow sculpting"
                 className="w-full h-full object-cover object-center scale-100 group-hover:scale-105 transition-transform duration-[1200ms] opacity-90 group-hover:opacity-100"
                 referrerPolicy="no-referrer"
@@ -163,7 +163,7 @@ export default function Services({ onBookService }: ServicesProps) {
             {/* Deluxe Waxing Image Frame */}
             <div className="relative w-full aspect-[16/10] overflow-hidden border border-[#1A1008]/10 group-hover:border-[#C9995A]/30 transition-all duration-700 bg-[#FAF9F5] shadow-inner">
               <img 
-                src="https://images.unsplash.com/photo-1519415510236-8aed79dd1555?auto=format&fit=crop&q=80&w=600&h=400"
+                src={IMAGES.spaFocus}
                 alt="Finest calming skin waxing"
                 className="w-full h-full object-cover object-center scale-100 group-hover:scale-105 transition-transform duration-[1200ms] opacity-90 group-hover:opacity-100"
                 referrerPolicy="no-referrer"

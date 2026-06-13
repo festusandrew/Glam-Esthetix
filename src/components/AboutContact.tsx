@@ -38,8 +38,8 @@ export default function AboutContact() {
           <div className="lg:col-span-5 relative">
             <div className="w-full h-[460px] bg-[#FAF9F5] border border-[#1A1008]/10 p-2.5 overflow-hidden relative group">
               <img 
-                src={IMAGES.browFocus}
-                alt="Precision brow mapping process"
+                src={IMAGES.jasmine}
+                alt="Jasmine - Licensed Esthetician &amp; Owner"
                 className="w-full h-full object-cover object-center scale-102 group-hover:scale-105 transition-transform duration-[2500ms] opacity-90"
                 referrerPolicy="no-referrer"
               />
@@ -49,10 +49,10 @@ export default function AboutContact() {
             {/* Owner Signature Floating Block */}
             <div className="absolute -bottom-6 -right-4 bg-[#C9995A] text-[#FAF9F5] p-5 py-6 max-w-[240px] shadow-2xl">
               <p className="font-display text-[19px] leading-tight font-semibold text-[#1A1008] tracking-wide mb-1 select-none">
-                Lara Bennett
+                Jasmine
               </p>
               <p className="font-sans text-[8.5px] uppercase tracking-widest text-[#1A1008]/80 font-bold">
-                Licensed Esthetician &amp; Founder
+                Licensed Esthetician &amp; Owner
               </p>
             </div>
           </div>
@@ -72,31 +72,14 @@ export default function AboutContact() {
 
             <div className="space-y-5 text-xs sm:text-sm font-light text-[#1A1008]/75 leading-relaxed font-sans">
               <p>
-                Glam Esthetix is a premier, fully licensed local esthetician studio operating on private appointment bookings in Pacifica, CA. Guided by strict California State board sanitation protocols, custom curl mapping, and organic materials, we focus heavily on eye health and luxury aesthetics.
+                Hi everyone 👋 I’m Jasmine, the owner and licensed esthetician behind Glam Esthetix ✨
               </p>
               <p>
-                Founder Lara Bennett believes that lash extensions, brow mapping, and skin service shouldn’t trigger clinical discomfort. Every single appointment begins with an in-depth facial structure consultation, determining the perfect lengths, weight tolerances, and curvature shapes matching your lifestyle.
+                My journey in the beauty industry began in 2020, and what started with a lash course has grown into a passion for enhancing natural beauty through continued education, experience, and specialized services. As a mom and business owner, I take pride in creating a space where every client feels comfortable, confident, and cared for.
               </p>
-            </div>
-
-            {/* Custom List with Check badges */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 text-xs font-sans text-[#1A1008]/70">
-              <div className="flex items-start space-x-3">
-                <span className="mt-1 flex-shrink-0 w-4 h-4 border border-[#C9995A]/30 flex items-center justify-center text-[#C9995A] text-[9px] font-bold">✓</span>
-                <span>Licensed by the California Cosmetology Board</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <span className="mt-1 flex-shrink-0 w-4 h-4 border border-[#C9995A]/30 flex items-center justify-center text-[#C9995A] text-[9px] font-bold">✓</span>
-                <span>Hospital-Grade Strict Sanitation Standards</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <span className="mt-1 flex-shrink-0 w-4 h-4 border border-[#C9995A]/30 flex items-center justify-center text-[#C9995A] text-[9px] font-bold">✓</span>
-                <span>Custom Curl Mapping &amp; Weight Consults</span>
-              </div>
-              <div className="flex items-start space-x-3">
-                <span className="mt-1 flex-shrink-0 w-4 h-4 border border-[#C9995A]/30 flex items-center justify-center text-[#C9995A] text-[9px] font-bold">✓</span>
-                <span>Hypo-allergenic, Cruelty-Free Adhesives</span>
-              </div>
+              <p>
+                I’m so grateful for the opportunity to help you feel confident and beautiful and look forward to seeing you in the studio soon 🤍
+              </p>
             </div>
           </div>
 
@@ -174,7 +157,7 @@ export default function AboutContact() {
                 </div>
                 <h4 className="font-display text-2xl font-light text-[#1A1008]">Message Sent</h4>
                 <p className="text-xs text-[#1A1008]/70 max-w-sm mx-auto leading-relaxed">
-                  Thank you! Lara will review your question personally and get back to you within 24 business hours at your designated email address.
+                  Thank you! Jasmine will review your question personally and get back to you within 24 business hours at your designated email address.
                 </p>
               </div>
             ) : (
