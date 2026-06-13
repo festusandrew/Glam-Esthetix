@@ -47,6 +47,7 @@ An interactive reviews section featuring:
 * **Styling & Responsive Layout:** [Tailwind CSS 4](https://tailwindcss.com/)
 * **Animations:** [Motion (Framer Motion)](https://motion.dev/)
 * **Icons:** [Lucide React](https://lucide.dev/)
+* **Analytics:** [Vercel Analytics](https://vercel.com/docs/analytics)
 
 ---
 
